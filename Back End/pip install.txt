@@ -1,0 +1,26 @@
+*pip install 리스트
+-yolo단계
+pip install pdf2image
+pip install poppler-utils 
+
+git clone https://github.com/ultralytics/yolov5.git
+
+pip install -r requirements.txt(다이렉트로 설치가 되는지 기억이 가물가물함)
+
+-paddle ocr 단계
+pip install paddlepaddle -i https://mirror.baidu.com/pypi/simple
+
+pip install "paddleocr>=2.6.0.3"
+
+pip install paddleclas>=2.4.3
+
+git clone https://github.com/PaddlePaddle/PaddleOCR
+
+-pymongo 단계
+※이 단계는 기본 cmd라던가 터미널에서 설치하면 인식을 못함.
+-->vscode command prompt(기본값)으로 들어가서 설치해야함
+pip install pymongo
+pip install flask_pymongo
+
+------------------------------------------------------------------
+이후 파일들에 불이 꺼지면 해당 import 설치해야할듯 
